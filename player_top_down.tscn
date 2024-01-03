@@ -54,6 +54,7 @@ animations = [{
 radius = 34.0
 
 [node name="PlayerTopDown" type="CharacterBody2D"]
+scale = Vector2(0.2, 0.2)
 script = ExtResource("1_kju6v")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
