@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://dqdtmj26l2s0y"]
+[gd_scene load_steps=6 format=3 uid="uid://dqdtmj26l2s0y"]
 
 [ext_resource type="PackedScene" uid="uid://d2niwx1en17eo" path="res://player_top_down.tscn" id="1_7tnvd"]
 [ext_resource type="Texture2D" uid="uid://bghrdsobm8uhl" path="res://assets/tilesets/tileset_brown.png" id="1_yqu8y"]
+[ext_resource type="PackedScene" uid="uid://bm3d8fxlx1dcr" path="res://enemy.tscn" id="3_jwgjv"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_d2tea"]
 texture = ExtResource("1_yqu8y")
@@ -255,3 +256,6 @@ position = Vector2(370, 238)
 
 [node name="Camera2D" type="Camera2D" parent="Level1/PlayerTopDown"]
 zoom = Vector2(2, 2)
+
+[node name="Enemy" parent="Level1" instance=ExtResource("3_jwgjv")]
+position = Vector2(591, 355)
