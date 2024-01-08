@@ -12,7 +12,7 @@ dest_files=["res://.godot/imported/dungeon-air-6983.mp3-7801340c013382dd4306ecec
 
 [params]
 
-loop=false
+loop=true
 loop_offset=0
 bpm=0
 beat_count=0

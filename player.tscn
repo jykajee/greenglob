@@ -1,6 +1,6 @@
 [gd_scene load_steps=9 format=3 uid="uid://d2niwx1en17eo"]
 
-[ext_resource type="Script" path="res://PlayerTopDown.gd" id="1_kju6v"]
+[ext_resource type="Script" path="res://player.gd" id="1_kju6v"]
 [ext_resource type="Texture2D" uid="uid://duttyvd2ft43j" path="res://assets/glob_down.png" id="2_sbr24"]
 [ext_resource type="Texture2D" uid="uid://bg0rvuho12e30" path="res://assets/glob_left.png" id="3_4c6qu"]
 [ext_resource type="Texture2D" uid="uid://cg748fl5inyka" path="res://assets/glob_right.png" id="4_2stey"]
@@ -53,7 +53,7 @@ animations = [{
 [sub_resource type="CircleShape2D" id="CircleShape2D_5wgls"]
 radius = 34.0
 
-[node name="PlayerTopDown" type="CharacterBody2D"]
+[node name="Player" type="CharacterBody2D"]
 scale = Vector2(0.2, 0.2)
 script = ExtResource("1_kju6v")
 

@@ -3,7 +3,9 @@ extends CharacterBody2D
 
 const SPEED := 500.0
 const ANGULAR_SPEED := 5.0
+@export var health := 3
 @onready var _animated_sprite = $AnimatedSprite2D
+
 
 
 func _physics_process(delta):

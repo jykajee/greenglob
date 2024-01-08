@@ -1,0 +1,34 @@
+[gd_scene load_steps=3 format=3 uid="uid://cesq1wcjymsi5"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_dyhyk"]
+font_size = 12
+font_color = Color(1, 1, 1, 0.172549)
+
+[sub_resource type="LabelSettings" id="LabelSettings_rpsnt"]
+outline_size = 1
+outline_color = Color(0, 0, 0, 0.603922)
+
+[node name="GUI" type="CanvasLayer"]
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+offset_right = 40.0
+offset_bottom = 40.0
+
+[node name="RichTextLabel" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Green Glob v 0.1"
+label_settings = SubResource("LabelSettings_dyhyk")
+horizontal_alignment = 2
+
+[node name="HealthContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="HealthLabel" type="Label" parent="VBoxContainer/HealthContainer"]
+layout_mode = 2
+text = "Health"
+label_settings = SubResource("LabelSettings_rpsnt")
+
+[node name="HealthValue" type="Label" parent="VBoxContainer/HealthContainer"]
+layout_mode = 2
+text = "Health"
+label_settings = SubResource("LabelSettings_rpsnt")
